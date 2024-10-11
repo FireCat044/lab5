@@ -1,0 +1,15 @@
+﻿﻿@{
+    ViewBag.Title = "lab5";
+}
+
+<form action="/Home/SetCookie" method="post">
+    <div>
+        <label for="value">Введть значення</label>
+        <input type="text" id="value" name="value" required />
+    </div>
+    <div>
+        <label for="expireDate">Введіть дату та час</label>
+        <input type="datetime-local" id="expireDate" name="expireDate" required />
+    </div>
+    <button type="submit">Submit</button>
+</form>
